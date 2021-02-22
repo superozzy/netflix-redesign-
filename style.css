@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Yusei+Magic&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{ 
+    margin:0 auto;
+    max-width:580px;
+    max-height: 100vh;
+    background-color:#000;
+    /* overflow: hidden; */
+
+}
+.container{
+
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.navbar{
+    /* position:absolute; */
+    margin:0;
+    padding:0;
+    color:red;
+    font-family: 'Yusei Magic', sans-serif;
+    
+
+}
+.heading{
+    position:relative;
+    color:white;
+    margin-top:100px;
+    margin-bottom:1rem;
+   right: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+   font-size:15px;
+   font-weight: 600;
+
+}
+.btn{
+    background-color:#000;
+    color:white;
+font-size:17px;
+}
+.main{
+    width:200px;
+    height:300px;
+    position:relative;
+    
+    margin-top:1em; 
+    
+    margin: 0 auto;
+}
+.profil{
+    
+width:5rem;
+height:5rem;
+justify-content: center;
+justify-items: center;
+flex-wrap:wrap;
+margin-right:1rem;
+border-radius: 5px;
+margin-top:1em;
+cursor: pointer;
+}
+.profil:hover{
+    border:2px solid white;
+    
+}
+ .one{
+background-image: url(images/profil1.png);
+background-repeat: no-repeat;
+background-size:80px; ;
+}
+ .two{
+background-image: url(images/profil2.png);
+background-repeat: no-repeat;
+background-size:80px; ;
+}
+ .three{
+background-image: url(images/profil3.png);
+background-repeat: no-repeat;
+background-size:80px; ;
+}
+
+.footer{
+    
+    margin-top:1rem;
+    
+}
+.btn{
+    border:2px solid #564d4d;
+    font-size:14px;
+    padding:1em;
+    width:250px;
+    color:gray;
+    cursor: pointer;
+}
+.btn:hover{
+    font-size: 16px;;
+    color:white;
+    border:1px solid white;
+
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+.four{
+  position: relative;;
+border: 2px solid black;;
+ background-color:#000;
+bottom:1.7em;
+
+} 
+
+
+.four:hover{
+    background-color:#564d4d;
+   
+}
+
+span{
+   font-size:40px;
+  text-align: center;
+   color:white;
+   position:relative;
+
+}
+span:hover{
+    color:#000;
+
+}
+
+@media only screen and (min-width: 760px){
+    body{
+        width:800px;
+        height: 100vh;
+    }
+  .container{
+      display: flex;
+      
+  }
+  .navbar{
+      position: absolute;
+      top:0.3rem;
+     left:2rem;
+     font-size:12px;
+     
+  }
+
+
+  .main-section{
+     position: relative;
+     top:5rem;
+     text-align: center;;
+  }
+  .main{
+      display:flex;
+      flex-direction: row;
+      width:500px;
+  }
+
+  .profil{
+  
+    background-size: 130px;
+    padding:3.5rem;
+  }
+  .btn{
+      position: relative;;
+      bottom:120px;
+  }
+  .four{
+      top:0.1rem;
+  }
+  .heading{
+      font-size:18px;
+  }
+  span{
+    text-align: center;
+ font-size:60px;
+  bottom:2rem;
+  right:1rem;
+}
+}
+@media only screen and (min-width: 1220px){
+    body{
+        width:1440px;
+        height: 100vh;
+    }
+ .profil{
+   
+   background-size: 150px;
+   padding:4.5rem;
+ }
+ .btn{
+     text-align: center;
+   font-size:15px;
+ }
+ .heading{
+     font-size:20px;
+ }
+ .btn{
+     position:relative;
+     bottom:100px;
+ 
+ }
+ span{
+     text-align: center;
+  font-size:60px;
+   bottom:2rem;
+   right:1rem;
+ }
+ .main-section{
+     position:relative;
+     top:80px;
+ }
+}

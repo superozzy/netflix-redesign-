@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Yusei+Magic&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{ 
+    margin:0 auto;
+    max-width:1440px;
+    max-height: 100vh;
+    background-color:#000;
+    /* overflow: hidden; */
+
+}
+
+.container{
+   text-align: center;
+}
+#logo{
+    /* position:absolute; */
+    margin:0;
+    padding:0;
+    color:red;
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
+    
+
+}
+#white{
+    color:#fff;
+}
+h1{
+    font-family:'Yusei Magic', sans-serif; 
+    color:white;
+    margin-bottom: 1rem;;
+}
+h3{
+    font-family:'Yusei Magic', sans-serif; 
+    color:white;
+    position:relative;
+    text-align: start;
+    font-size: 30px;
+    margin-bottom: 1rem;;
+}
+
+/* cards */
+
+.cards-design{
+  margin:0.5rem;
+  padding:0.5rem;
+  text-align: center;
+ 
+}
+
+img:hover{
+    transform: scale(1.5);
+  z-index: 1;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 8px;
+    transition: transform 500ms;
+}
+.again{
+color:white;
+font-family:'Yusei Magic', sans-serif; 
+font-size: 30px;;
+}
+p{
+    margin-top:0.5rem;
+    color: white;
+    opacity: 50%;
+   
+}
+
+.beasts{
+    height:330px;
+}
+
+.upup{
+    position: block;
+    text-align: end;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 8rem;
+    cursor: pointer;
+}
+
+
+
+.buttonup{
+   
+    text-align: end;
+}
+
+.contact{
+    position: relative;
+    color: white;
+    text-align: center;
+    bottom:5rem;
+}
